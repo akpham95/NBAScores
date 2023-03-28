@@ -5,43 +5,63 @@
 //  Created by Anthony Pham on 12/23/22.
 //
 
+
 import Foundation
 
-struct Standings: Decodable {
+struct Standings: Codable {
+    // Initial teams array parsed from JSON
+    var teams:[Team]
     
-    var teamID: Int
-    var key: String { didSet { logo = setTeamLogo(from: key)}}
-    let city: String
-    let name: String
-    var logo: String = ""
-    let conference: String
-    var wins: Int
-    var losses: Int
-    var ranking: Int = 0
+    // Arrays to be populated in sorting
+    var east:[Team]
+    var west:[Team]
     
-    
-    enum CodingKeys: String, CodingKey {
-        case ranking, logo
-        case teamID     = "TeamID"
-        case key        = "Key"
-        case city       = "City"
-        case name       = "Name"
-        case conference = "Conference"
-        case wins       = "Wins"
-        case losses     = "Losses"
+    // Initialized with empty team arrays
+    init() {
+        self.teams = [Team]()
+        self.east = [Team]()
+        self.west = [Team]()
     }
     
-}
-
-extension Standings {
-    
-    /// return the team logo url based on the team name
-    func setTeamLogo(from teamName: String) -> String {
-        switch teamName {
-        // case for each team logo return string svg
-        default:
-            print("error")
-            return "error"
+    // Sorting function (API does not give explicit standings)
+    // mutates own properties (needed in struct)
+    mutating func sortConferences() {
+        
+        // Separate main teams array into east and west
+        for t in (0..<teams.count) {
+            if teams[t].Conference == "Eastern" {
+                self.east.append(teams[t])
+            } else {
+                self.west.append(teams[t])
+            }
+        }
+        
+        // Sort east array
+        self.east.sort { t1, t2 in
+            return t1.Percentage > t2.Percentage
+        }
+        
+        // Sory west array
+        self.west.sort { t1, t2 in
+            return t1.Percentage > t2.Percentage
         }
     }
 }
+
+struct Team: Codable, Identifiable {
+
+    var id:UUID?
+    var TeamID:Int
+    var Key:String
+    var City:String
+    var Name:String
+    var Conference:String
+    var Wins:Int
+    var Losses:Int
+    var Percentage:Double
+    var ConferenceRank:Int
+    
+}
+ 
+
+

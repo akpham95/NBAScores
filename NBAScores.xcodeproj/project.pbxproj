@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD304FC5296D37ED00B9DD6E /* NSScoresViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FC4296D37ED00B9DD6E /* NSScoresViewViewModel.swift */; };
+		DD304FC7296D38AF00B9DD6E /* NSScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FC6296D38AF00B9DD6E /* NSScoresView.swift */; };
+		DD304FCA296D3F0B00B9DD6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FC9296D3F0B00B9DD6E /* Extensions.swift */; };
+		DD304FCC296DF3CB00B9DD6E /* NSScoresCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FCB296DF3CB00B9DD6E /* NSScoresCollectionViewCell.swift */; };
+		DD304FCE296DF72D00B9DD6E /* NSScoresCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FCD296DF72D00B9DD6E /* NSScoresCollectionViewCellViewModel.swift */; };
+		DD304FD0296E7A8600B9DD6E /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FCF296E7A8600B9DD6E /* DateHelper.swift */; };
+		DD304FD42977918700B9DD6E /* NSStandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FD32977918700B9DD6E /* NSStandingsView.swift */; };
+		DD304FD62977933900B9DD6E /* NSStandingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FD52977933900B9DD6E /* NSStandingsViewViewModel.swift */; };
+		DD304FD82977C9AF00B9DD6E /* NSStandingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FD72977C9AF00B9DD6E /* NSStandingsTableViewCell.swift */; };
+		DD304FDA2977CA1700B9DD6E /* NSStandingsTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FD92977CA1700B9DD6E /* NSStandingsTableViewCellViewModel.swift */; };
+		DD304FDE2979E2A000B9DD6E /* NSStandingsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD304FDD2979E2A000B9DD6E /* NSStandingsHeader.swift */; };
 		DD7FC1C229510BFA0089C18B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1C129510BFA0089C18B /* AppDelegate.swift */; };
 		DD7FC1C429510BFA0089C18B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1C329510BFA0089C18B /* SceneDelegate.swift */; };
 		DD7FC1C629510BFA0089C18B /* NSTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1C529510BFA0089C18B /* NSTabViewController.swift */; };
 		DD7FC1CB29510BFB0089C18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC1CA29510BFB0089C18B /* Assets.xcassets */; };
 		DD7FC1CE29510BFB0089C18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC1CC29510BFB0089C18B /* LaunchScreen.storyboard */; };
-		DD7FC1D729510CD10089C18B /* GameByDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1D629510CD10089C18B /* GameByDate.swift */; };
+		DD7FC1D729510CD10089C18B /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1D629510CD10089C18B /* Schedule.swift */; };
 		DD7FC1DC29560DCB0089C18B /* Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1DB29560DCB0089C18B /* Standings.swift */; };
 		DD7FC1E0295FD30B0089C18B /* NSGameByDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1DF295FD30B0089C18B /* NSGameByDateViewController.swift */; };
 		DD7FC1E2295FD31E0089C18B /* NSStandingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1E1295FD31E0089C18B /* NSStandingsViewController.swift */; };
-		DD7FC1E4295FD3350089C18B /* NSSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1E3295FD3350089C18B /* NSSettingsViewController.swift */; };
+		DD7FC1F429602A860089C18B /* NSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1F329602A860089C18B /* NSService.swift */; };
+		DD7FC1F629602A910089C18B /* NSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1F529602A910089C18B /* NSRequest.swift */; };
+		DD7FC1F829602A9B0089C18B /* NSEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC1F729602A9B0089C18B /* NSEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD304FC4296D37ED00B9DD6E /* NSScoresViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSScoresViewViewModel.swift; sourceTree = "<group>"; };
+		DD304FC6296D38AF00B9DD6E /* NSScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSScoresView.swift; sourceTree = "<group>"; };
+		DD304FC9296D3F0B00B9DD6E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DD304FCB296DF3CB00B9DD6E /* NSScoresCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSScoresCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD304FCD296DF72D00B9DD6E /* NSScoresCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSScoresCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		DD304FCF296E7A8600B9DD6E /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		DD304FD32977918700B9DD6E /* NSStandingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStandingsView.swift; sourceTree = "<group>"; };
+		DD304FD52977933900B9DD6E /* NSStandingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStandingsViewViewModel.swift; sourceTree = "<group>"; };
+		DD304FD72977C9AF00B9DD6E /* NSStandingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStandingsTableViewCell.swift; sourceTree = "<group>"; };
+		DD304FD92977CA1700B9DD6E /* NSStandingsTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStandingsTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		DD304FDD2979E2A000B9DD6E /* NSStandingsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStandingsHeader.swift; sourceTree = "<group>"; };
 		DD7FC1BE29510BFA0089C18B /* NBAScores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAScores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7FC1C129510BFA0089C18B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD7FC1C329510BFA0089C18B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,11 +51,13 @@
 		DD7FC1CA29510BFB0089C18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7FC1CD29510BFB0089C18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7FC1CF29510BFB0089C18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD7FC1D629510CD10089C18B /* GameByDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameByDate.swift; sourceTree = "<group>"; };
+		DD7FC1D629510CD10089C18B /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		DD7FC1DB29560DCB0089C18B /* Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standings.swift; sourceTree = "<group>"; };
 		DD7FC1DF295FD30B0089C18B /* NSGameByDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGameByDateViewController.swift; sourceTree = "<group>"; };
 		DD7FC1E1295FD31E0089C18B /* NSStandingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStandingsViewController.swift; sourceTree = "<group>"; };
-		DD7FC1E3295FD3350089C18B /* NSSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSettingsViewController.swift; sourceTree = "<group>"; };
+		DD7FC1F329602A860089C18B /* NSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSService.swift; sourceTree = "<group>"; };
+		DD7FC1F529602A910089C18B /* NSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRequest.swift; sourceTree = "<group>"; };
+		DD7FC1F729602A9B0089C18B /* NSEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +71,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD304FC3296D36EE00B9DD6E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD304FC4296D37ED00B9DD6E /* NSScoresViewViewModel.swift */,
+				DD304FCD296DF72D00B9DD6E /* NSScoresCollectionViewCellViewModel.swift */,
+				DD304FD52977933900B9DD6E /* NSStandingsViewViewModel.swift */,
+				DD304FD92977CA1700B9DD6E /* NSStandingsTableViewCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD304FC8296D3EFD00B9DD6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD304FC9296D3F0B00B9DD6E /* Extensions.swift */,
+				DD304FCF296E7A8600B9DD6E /* DateHelper.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DD7FC1B529510BFA0089C18B = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +110,10 @@
 		DD7FC1C029510BFA0089C18B /* NBAScores */ = {
 			isa = PBXGroup;
 			children = (
+				DD304FC8296D3EFD00B9DD6E /* Resources */,
+				DD7FC1F1296026DC0089C18B /* Utilities */,
+				DD7FC1F229602A710089C18B /* APIClient */,
+				DD304FC3296D36EE00B9DD6E /* ViewModels */,
 				DD7FC1DD295F993A0089C18B /* Views */,
 				DD7FC1D829551C950089C18B /* Controllers */,
 				DD7FC1D529510C0E0089C18B /* Models */,
@@ -79,7 +129,7 @@
 		DD7FC1D529510C0E0089C18B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DD7FC1D629510CD10089C18B /* GameByDate.swift */,
+				DD7FC1D629510CD10089C18B /* Schedule.swift */,
 				DD7FC1DB29560DCB0089C18B /* Standings.swift */,
 			);
 			path = Models;
@@ -96,6 +146,11 @@
 		DD7FC1DD295F993A0089C18B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DD304FC6296D38AF00B9DD6E /* NSScoresView.swift */,
+				DD304FCB296DF3CB00B9DD6E /* NSScoresCollectionViewCell.swift */,
+				DD304FDD2979E2A000B9DD6E /* NSStandingsHeader.swift */,
+				DD304FD32977918700B9DD6E /* NSStandingsView.swift */,
+				DD304FD72977C9AF00B9DD6E /* NSStandingsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,9 +161,25 @@
 				DD7FC1C529510BFA0089C18B /* NSTabViewController.swift */,
 				DD7FC1DF295FD30B0089C18B /* NSGameByDateViewController.swift */,
 				DD7FC1E1295FD31E0089C18B /* NSStandingsViewController.swift */,
-				DD7FC1E3295FD3350089C18B /* NSSettingsViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		DD7FC1F1296026DC0089C18B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD7FC1F229602A710089C18B /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC1F329602A860089C18B /* NSService.swift */,
+				DD7FC1F529602A910089C18B /* NSRequest.swift */,
+				DD7FC1F729602A9B0089C18B /* NSEndpoint.swift */,
+			);
+			path = APIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,12 +254,25 @@
 			files = (
 				DD7FC1C629510BFA0089C18B /* NSTabViewController.swift in Sources */,
 				DD7FC1C229510BFA0089C18B /* AppDelegate.swift in Sources */,
-				DD7FC1E4295FD3350089C18B /* NSSettingsViewController.swift in Sources */,
-				DD7FC1D729510CD10089C18B /* GameByDate.swift in Sources */,
+				DD7FC1F629602A910089C18B /* NSRequest.swift in Sources */,
+				DD7FC1F829602A9B0089C18B /* NSEndpoint.swift in Sources */,
+				DD304FCC296DF3CB00B9DD6E /* NSScoresCollectionViewCell.swift in Sources */,
+				DD7FC1D729510CD10089C18B /* Schedule.swift in Sources */,
+				DD304FC7296D38AF00B9DD6E /* NSScoresView.swift in Sources */,
+				DD7FC1F429602A860089C18B /* NSService.swift in Sources */,
 				DD7FC1DC29560DCB0089C18B /* Standings.swift in Sources */,
+				DD304FCA296D3F0B00B9DD6E /* Extensions.swift in Sources */,
+				DD304FD82977C9AF00B9DD6E /* NSStandingsTableViewCell.swift in Sources */,
+				DD304FD62977933900B9DD6E /* NSStandingsViewViewModel.swift in Sources */,
+				DD304FCE296DF72D00B9DD6E /* NSScoresCollectionViewCellViewModel.swift in Sources */,
 				DD7FC1E0295FD30B0089C18B /* NSGameByDateViewController.swift in Sources */,
+				DD304FDE2979E2A000B9DD6E /* NSStandingsHeader.swift in Sources */,
 				DD7FC1C429510BFA0089C18B /* SceneDelegate.swift in Sources */,
+				DD304FD0296E7A8600B9DD6E /* DateHelper.swift in Sources */,
+				DD304FD42977918700B9DD6E /* NSStandingsView.swift in Sources */,
+				DD304FDA2977CA1700B9DD6E /* NSStandingsTableViewCellViewModel.swift in Sources */,
 				DD7FC1E2295FD31E0089C18B /* NSStandingsViewController.swift in Sources */,
+				DD304FC5296D37ED00B9DD6E /* NSScoresViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
